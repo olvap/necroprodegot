@@ -1,10 +1,31 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background-color: #333333;
+}
+
+header {
+  background-image: asset-data-url('header.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  border-bottom: 7px solid;
+  height: 300px;
+}
+
 .death {
   text-decoration: line-through;
 }
 
-.necro-list h1 span{
+.necro-list h1 span {
   font-size: 12px;
+}
+
+h1 {
+  color: #f5deb3;
+}
+
+.list-group-item {
+  margin-bottom: 3px;
 }

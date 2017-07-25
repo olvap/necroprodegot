@@ -1,4 +1,5 @@
-<h1>Necro Prode</h1>
+<header>
+</header>
 
 <div class="row">
 <% @list.each do |list| %>
@@ -9,11 +10,11 @@
     </h1>
     <ul class='list-group'>
       <% list.characters.each do |character| %>
-        <%= link_to toggle_live_character_path(character) do %>
-          <li class='<%= 'death' unless character.alive? %> list-group-item'>
+        <li class='<%= 'death' unless character.alive? %> list-group-item'>
+          <%= link_to toggle_live_character_path(character) do %>
             <%= character.name %>
-          </li>
-        <% end %>
+          <% end %>
+        </li>
       <% end %>
     </ul>
   </div>
