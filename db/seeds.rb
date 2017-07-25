@@ -2,7 +2,7 @@ listas =
   {
     'Ceci' => [
       'Beric Dondarion',
-      'Dragón (a determinar)',
+      'Dragon (a determinar)',
       'Eddison Tollett',
       'Litlefingher',
       'Nymeria (lobo)',
@@ -81,7 +81,7 @@ listas =
       'Ned Umber',
       'Sandor Clegane',
       'Qyburn',
-      'Unella', 
+      'Unella',
       'Theon Greyjoy'
     ]
   }
