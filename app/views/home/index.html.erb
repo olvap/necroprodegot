@@ -14,6 +14,7 @@
           <%= link_to toggle_live_character_path(character) do %>
             <%= character.name %>
           <% end %>
+          <%= image_tag(character.alive? ? 'alive_token.png': 'death_token.png')%>
         </li>
       <% end %>
     </ul>

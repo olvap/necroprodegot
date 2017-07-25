@@ -1,8 +1,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+$font-color: #f5deb3;
+$grey: #333333;
+
 body {
-  background-color: #333333;
+  background-color: $grey;
+  color: $font-color;
 }
 
 header {
@@ -11,11 +15,17 @@ header {
   background-repeat: no-repeat;
   background-size: 100% auto;
   border-bottom: 7px solid;
+  border-color: $grey - 20;
   height: 300px;
 }
 
 .death {
   text-decoration: line-through;
+  color: $grey;
+
+  a {
+    color: $grey;
+  }
 }
 
 .necro-list h1 span {
@@ -23,9 +33,15 @@ header {
 }
 
 h1 {
-  color: #f5deb3;
+  color: $font-color;
 }
 
 .list-group-item {
   margin-bottom: 3px;
+
+  img {
+    float: right;
+    vertical-align: middle;
+    width: 25px;
+  }
 }
