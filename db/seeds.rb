@@ -1,16 +1,8 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-
 listas =
   {
     'Ceci' => [
       'Beric Dondarion',
-      'Dragón (a determinar)',
+      'Drag�n (a determinar)',
       'Eddison Tollett',
       'Litlefingher',
       'Nymeria (lobo)',
@@ -24,62 +16,72 @@ listas =
       'Asha Greyjoy',
       'Brienne de Tarth',
       'Euron Greyjoy',
-      'Gusano Gris',
+      'Grey Worm',
       'Melisandre',
-      'Nymeria Arena',
+      'Nymeria Sand',
       'Obara Sand',
       'Sansa Stark',
       'Tormund Giantsbane',
-      'Tyene Arena'
+      'Tyene Sand'
     ],
     'Fede' => [
       'Beric Dondarion',
       'Crows Eyes',
-      'Edd El Penas',
+      'Eddison Tollett',
       'Elaria Sand',
-      'Kevan Lanister',
-      'La Montaña',
+      'Gregor Clegane',
       'Nymeria Sand',
       'Olena Tyrell',
       'Qyburn',
+      'Randy Tarly',
       'Robyn Arryn'
     ],
     'Liza' => [
-      'Cercei',
-      'Davos',
-      'Edd El Penas',
-      'El Perro',
+      'Cercei Lannister',
+      'Davos Seaworth',
+      'Eddison Tollett',
       'Gilli',
       'Gosht',
-      'La Montaña',
+      'Gregor Clegane',
       'Litlefingher',
-      'Misandei',
-      'Obara Sand'
+      'Missandei',
+      'Obara Sand',
+      'Sandor Clegane'
     ],
     'Noe' => [
+      'Ellaria Sand',
+      'Gregor Clegane',
+      'Grey Worm',
+      'Jaime Lannister',
+      'Jaqen H`ghar',
+      'Jorah Mormont',
+      'Litlefingher',
+      'Missandei',
+      'Ollena Tyrell',
+      'Theon Greyjoy'
     ],
     'Marian' => [
       'Asha Greyjoy',
       'Beric Dondarion',
-      'Edd El Penas',
+      'Eddison Tollett',
       'Ellaria Sand',
-      'Gusano Gris',
+      'Grey Worm',
       'Litlefingher',
       'Thoros de Myr',
-      'Tormund',
-      'Un caminante Blanco',
+      'Tormund Giantsbane',
+      'White Walker',
       'Viserion'
     ],
     'Pablo' => [
-      'Nuevo Personaje que aparezca',
-      'Cercei',
-      'La Montaña',
-      'El Perro',
-      'Qyburn',
-      'La monja Shame',
-      'Davos',
-      'Jorah',
+      'Cercei Lannister',
+      'Davos Seaworth',
+      'Gregor Clegane',
+      'Jorah Mormont',
       'Lyanna Mormont',
+      'Ned Umber',
+      'Sandor Clegane',
+      'Qyburn',
+      'Unella', 
       'Theon Greyjoy'
     ]
   }
