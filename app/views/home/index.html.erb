@@ -1,0 +1,21 @@
+<h1>Necro Prode</h1>
+
+<div class="row">
+<% @list.each do |list| %>
+  <div class="col-md-4 necro-list">
+    <h1>
+      <%= list.name %>
+      <span class="label label-default"><%= list.total %></span>
+    </h1>
+    <ul class='list-group'>
+      <% list.characters.each do |character| %>
+        <%= link_to toggle_live_character_path(character) do %>
+          <li class='<%= 'death' unless character.alive? %> list-group-item'>
+            <%= character.name %>
+          </li>
+        <% end %>
+      <% end %>
+    </ul>
+  </div>
+<% end %>
+</div>
