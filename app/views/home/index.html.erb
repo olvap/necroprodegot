@@ -2,22 +2,6 @@
 </header>
 
 <div class="row">
-<% @list.each do |list| %>
-  <div class="col-md-4 necro-list">
-    <h1>
-      <%= list.name %>
-      <span class="label label-default"><%= list.total %></span>
-    </h1>
-    <ul class='list-group'>
-      <% list.characters.each do |character| %>
-        <li class='<%= 'death' unless character.alive? %> list-group-item'>
-          <%= link_to toggle_live_character_path(character) do %>
-            <%= character.name %>
-          <% end %>
-          <%= image_tag(character.alive? ? 'alive_token.png': 'death_token.png')%>
-        </li>
-      <% end %>
-    </ul>
-  </div>
-<% end %>
+  <necro-list>
+  </necro-list>
 </div>

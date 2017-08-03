@@ -6,6 +6,13 @@
 
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/riot/3.6.1/riot+compiler.min.js'></script>
+    <script src='/necro-list.tag' type="riot/tag"></script>
+    <script>
+      $( document ).ready(function() {
+        riot.mount('*')
+      })
+    </script>
   </head>
 
   <body>
